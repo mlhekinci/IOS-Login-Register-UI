@@ -21,11 +21,8 @@ class LoginVC: UIViewController {
         welcomeLabel.lineBreakMode = .byWordWrapping
         welcomeLabel.numberOfLines = 2
         
-        let emailImage = UIImage(named:"email")
-        let passwordImage = UIImage(named: "lock")
-        
-        emailInput.setLeftIcon(emailImage!)
-        passwordInput.setLeftIcon(passwordImage!)
+        emailInput.setLeftIcon(UIImage(named: "email")!)
+        passwordInput.setLeftIcon(UIImage(named: "lock")!)
     }
     
     @IBAction func backButton(_ sender: Any) {

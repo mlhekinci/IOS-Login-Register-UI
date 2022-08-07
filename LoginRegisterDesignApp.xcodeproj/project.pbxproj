@@ -15,6 +15,7 @@
 		D43E462B289C76E400692611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43E4629289C76E400692611 /* LaunchScreen.storyboard */; };
 		D43E4635289C778800692611 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4634289C778800692611 /* RegisterVC.swift */; };
 		D43E4638289C77A600692611 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4637289C77A600692611 /* LoginVC.swift */; };
+		D4669777289F243B007EBEFC /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4669776289F243B007EBEFC /* TextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D43E4634289C778800692611 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		D43E4637289C77A600692611 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D43E463C289CA02000692611 /* PTSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSans-Regular.ttf"; sourceTree = "<group>"; };
+		D4669776289F243B007EBEFC /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D43E463B289C9E6F00692611 /* Fonts */,
 				D43E4634289C778800692611 /* RegisterVC.swift */,
 				D43E4637289C77A600692611 /* LoginVC.swift */,
+				D4669776289F243B007EBEFC /* TextFieldExtension.swift */,
 			);
 			path = LoginRegisterDesignApp;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				D43E4623289C76E300692611 /* HomeVC.swift in Sources */,
 				D43E4635289C778800692611 /* RegisterVC.swift in Sources */,
 				D43E461F289C76E300692611 /* AppDelegate.swift in Sources */,
+				D4669777289F243B007EBEFC /* TextFieldExtension.swift in Sources */,
 				D43E4621289C76E300692611 /* SceneDelegate.swift in Sources */,
 				D43E4638289C77A600692611 /* LoginVC.swift in Sources */,
 			);
